@@ -1,0 +1,117 @@
+  * {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+  }
+
+  .wholebox {
+      display: flex;
+      height: 100vh;
+      /* border: 1px solid black; */
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      /* background-color: #efe5ef; */
+      /* background-image:url("https://img.freepik.com/free-vector/hand-drawn-back-school-pattern-set_23-2148632758.jpg?w=740&t=st=1688829348~exp=1688829948~hmac=8c50b2995bf33a87b69f5311afc415b47714cc5c5207f21e75d2e3bb6e336aed"*/
+background-image: url(/img/watercolor-light-steel-blue-wallpaper-image.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size: cover;
+  }
+
+  .container {
+      /* padding-left:50px; */
+      width: 66vh;
+      height: 78vh;
+      flex-direction: column;
+      /* border: 2px solid skyblue; */
+      box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      /* overflow:hidden; */
+
+  }
+
+  .img_logo{
+      margin-top:5px;
+  }
+
+  #ilogo {
+      width: 235px;
+      margin-bottom:400px;
+  }
+
+  .login {
+      position: absolute;
+      margin-top: 4px;
+      margin-left:30px;
+  }
+
+  #slide {
+font-size: 22px;
+      margin-bottom: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+} 
+   
+   
+  #mail {
+      height: 20px;
+      position: absolute;
+      margin-top:9px ;
+margin-left:2px;
+  }
+  #lock{
+    height:20px;
+    position:absolute;
+    margin-top: 9px;
+    margin-left:2px;
+  }
+  .cemail {
+      padding: 7.5px 23px;
+      border:none;
+      width: 200px;
+      height:40px;
+font-size:15px;
+font-weight: bold;
+color:solid black;
+  }
+  input{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+  input:focus{
+    outline: none;
+  }
+
+  #clogin {
+      padding: 5px 83px;
+      font-weight: bold;
+      font-family:sans-serif;
+      background-color:#40bf80;
+  }
+  .box {
+      display: flex;
+      margin-left:10px;
+      gap:50px;
+      margin-top: 50px;
+  }
+
+  #fpassw{
+      font-size: 15px;
+      font-family:sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      /* margin-left:15px; */
+      }
+      #fpassw:hover{
+        color:rgb(20, 73, 153);
+        box-shadow:  rgba(0, 0, 7, 0.1) 0px 1px 0px;
+      }
+       p{
+        font-size: 15px;
+      font-family:sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+       }

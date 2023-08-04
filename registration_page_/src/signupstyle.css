@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+}
+
+#icon{
+    /* justify-content: center; */
+    margin-left:500px;
+    
+
+}
+.picture{
+    display:flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 50px;
+    text-align:center;
+    margin-left: 500px;
+}
+
+p{
+    margin-top:20px;
+    width:70vh;
+    text-align: center;
+    margin-left: 500px;
+}
+.loginbox{
+    /* height:90vh;  */
+    border:2px solid red ;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width:70vh;
+}
+.upper{
+    display: flex;
+    gap:0px;
+}
