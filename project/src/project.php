@@ -18,8 +18,7 @@ if(!isset($_SESSION['login'])|| $_SESSION['login']!=true){
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css<?php echo time(); ?>" />
 </head>
 
 <body>
@@ -42,9 +41,9 @@ if(!isset($_SESSION['login'])|| $_SESSION['login']!=true){
     <div class="con">
       <div class="con-contents">
         <h1 id="a">LEARNING MADE EASIER</h1>
-        <h2 id="b"><i>Learn like never before</i></h2>
+        <h2 id="b">Learn like never before</h2>
         <a href="#">
-          <h2 id="c">Get started for free</h2>
+          <h2 id="c">Get started </h2>
         </a>
         <h3><a href="#" class="a">View all our courses>></a></h3>
       </div>
@@ -285,9 +284,9 @@ if(!isset($_SESSION['login'])|| $_SESSION['login']!=true){
       </a>
     </div>
     <div id="imgp">
-      <a href="#">
-        <p>view more</p>
-      </a>
+      
+      <a href="#">view more</a>
+      
     </div>
   </div>
   <div class="stdvoice">

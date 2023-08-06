@@ -8,6 +8,6 @@ if(!$con){
   die("connection error");
 }
 else{
-  echo"khatra";
+  echo"";
 }
 ?>
